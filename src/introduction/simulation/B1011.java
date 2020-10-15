@@ -40,9 +40,9 @@ public class B1011 {
         }
         for (int i = 0; i < T; i++) {
             if (Arr[i][0] + Arr[i][1] > Arr[i][2]) {
-                System.out.println("Case #X: true");
+                System.out.println("Case #"+(i+1)+": true");
             } else {
-                System.out.println("Case #X: false");
+                System.out.println("Case #"+(i+1)+": false");
             }
         }
     }
