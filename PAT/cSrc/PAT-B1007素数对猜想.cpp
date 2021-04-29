@@ -25,7 +25,7 @@ int main()
          if(isPrimeNumber(i)==true&&isPrimeNumber(i+2)==true)
          //分别判断某个数和与他相差为2的数是否都为素数
             { 
-             count++;   、//若符合调教对数值加一         
+             count++;   //若符合调教对数值加一         
             } 
     } 
         cout<<count<<endl;  //输出素数的对数
