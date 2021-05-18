@@ -10,7 +10,7 @@
         "description": "add some questions",
         "color": "#006b75",
         "keywords": [
-          "add questions"
+          "questions"
         ]
       },
       {
@@ -92,7 +92,6 @@
         "description": "Question from PAT-A",
         "color": "#E6B5C8",
         "keywords": [
-          "pat",
           "pat-a"
         ]
       },
