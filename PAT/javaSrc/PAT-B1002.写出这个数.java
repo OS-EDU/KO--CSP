@@ -16,11 +16,11 @@ public class Main {
         for (int i = 0; i < n.length(); i++) {
             sum += Integer.parseInt(n.charAt(i) + "");
         }
-        if(sum == 0){
+        if(sum == 0) {
             System.out.println("ling");
-        }else{
+        }else {
             // 循环把 sum 拆分存入数组
-            while (sum != 0){
+            while (sum != 0) {
                 output[size] = sum  % 10;
                 sum /= 10;
                 size ++;
