@@ -21,7 +21,7 @@ public class Main {
         }else {
             // 循环把 sum 拆分存入数组
             while (sum != 0) {
-                output[size] = sum  % 10;
+                output[size] = sum % 10;
                 sum /= 10;
                 size ++;
             }
