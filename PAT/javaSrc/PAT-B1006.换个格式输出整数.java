@@ -1,12 +1,10 @@
-package PAT.B1006;
-
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
-        int size= 0;
+        int size = 0;
         // 定义一个数组存储各位数
         int[] out = new int[3];
         // 遍历拆分 n 吗，并存入数组
