@@ -6,39 +6,13 @@
 ---
 
 ### 1、题解列表
-[1.PAT-B1001.害死人不偿命的(3*n +1)猜想](https://os-edu.github.io/posts/b1001/)
+#### ①PAT-A题解：
 
-[2.PAT-B1046.划拳](https://os-edu.github.io/posts/b1046/)
 
-[3.PAT-B1008.数组元素循环右移问题](https://os-edu.github.io/posts/pat_b1008/)
 
-[4.PAT-B1011.A+B和C](https://os-edu.github.io/posts/pat_b1011/)
+#### ②PAT-B题解：
 
-[5.PAT-B1012.数字分类](https://os-edu.github.io/posts/pat_b1012/)
 
-[6.PAT-B1004.成绩排名](https://os-edu.github.io/posts/pat-b1004/)
-
-[7.PAT-B1041.考试座位号](https://os-edu.github.io/posts/pat-b1041/)
-
-[8.PAT-B1010.一元多项式求导](https://os-edu.github.io/posts/pat-b1010/)
-
-[9.PAT-A1042.ShufflingMachine](https://os-edu.github.io/posts/pat-a1042/)
-
-[10.PAT-B1018.锤子剪刀布](https://os-edu.github.io/posts/pat_b1018/)
-
-[11.PAT-B1016.部分A+B](https://os-edu.github.io/posts/pat-b1016/)
-
-[12.PAT-B1028.人口普查](https://os-edu.github.io/posts/pat-b1028/)
-
-[13.PAT-B1032.挖掘机技术哪家强](https://os-edu.github.io/posts/pat-b1032.%E6%8C%96%E6%8E%98%E6%9C%BA%E6%8A%80%E6%9C%AF%E5%93%AA%E5%AE%B6%E5%BC%BA/)
-
-[14.PAT-B1022.D进制的A+B](https://os-edu.github.io/posts/pat-b1022.d-%E8%BF%9B%E5%88%B6%E7%9A%84-a-+-b/)
-
-[15.PAT-B1030.完美数列](https://os-edu.github.io/posts/pat-a1030.%E5%AE%8C%E7%BE%8E%E6%95%B0%E5%88%97/)
-
-[16.PAT-B1036.跟奥巴马一起编程](https://os-edu.github.io/posts/pat-b1036.%E8%B7%9F%E5%A5%A5%E5%B7%B4%E9%A9%AC%E4%B8%80%E8%B5%B7%E7%BC%96%E7%A8%8B/)
-
-[17.PAT-B1009.说反话](https://os-edu.github.io/posts/pat-b1009.%E8%AF%B4%E5%8F%8D%E8%AF%9D/)
 
 
 ---
@@ -46,6 +20,8 @@
 ### 2、参与指南
 
 如果您有好的想法以及意见，欢迎来提交pr，主要包括而不限于增加题目、题目解法、题目解析等。
+
+您也可以通过微信公众号、知乎来联系我们，让我们知道您的想法以及意见。
 
 #### ①增加题目
 
@@ -99,3 +75,18 @@
 题目的解析会以[博客](https://os-edu.github.io/)的形式呈现出来，所以如果之前你已经pr了题目的解法，那么你可以选择在博客中添加一下具体的解题思路以及代码分析，这样可以更有利于读者理解你的解法。
 
 博客是基于[hugo](https://github.com/gohugoio/hugo) 搭建的，可以对markdown文件直接渲染成静态网页。如果你对此还不了解的话，建议先了解一下具体操作，再上手实践。
+
+---
+
+### 3、社区交流
+
+#### ①微信公众号：OS EDU
+
+![公众号二维码]()
+
+(扫码关注)
+
+#### ②知乎网：OS-EDU
+
+(搜索OS-EDU关注)
+
