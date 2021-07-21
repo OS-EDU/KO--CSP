@@ -1,5 +1,3 @@
-package PAT.B1015;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -23,7 +21,9 @@ public class Main {
             num = in.next();
             de = in.nextInt();
             cai = in.nextInt();
+            // new 一个 Student 对象
             Student stu = new Student(num, de, cai);
+            // 分出输入数的层级
             if (de >= h && cai >= h) {
                 list1.add(stu);
             }
@@ -37,10 +37,12 @@ public class Main {
                 list4.add(stu);
             }
         }
+        // 给每个分层排序
         Collections.sort(list1);
         Collections.sort(list2);
         Collections.sort(list3);
         Collections.sort(list4);
+        // 输出
         System.out.println(list1.size() + list2.size() + list3.size() + list4.size());
         for (int i = 0; i < list1.size(); i++) {
             System.out.println(list1.get(i).num + " " + list1.get(i).de + " " + list1.get(i).cai);
@@ -58,7 +60,7 @@ public class Main {
     }
 
 }
-
+// 构造 Student 类引用 Comparable 接口
 class Student implements Comparable<Student> {
     String num;
     int de;
@@ -72,11 +74,11 @@ class Student implements Comparable<Student> {
     @Override
     public int compareTo(Student s) {
         int result = 0;
-        result = - (de + cai - s.de - s.cai);//总分降序
+        result = - (de + cai - s.de - s.cai); // 总分降序
         if (result == 0) {
-            result = - (de - s.de);//德分降序
+            result = - (de - s.de); // 德分降序
             if (result == 0) {
-                result = num.compareTo(s.num);//学号升序
+                result = num.compareTo(s.num); // 学号升序
             }
         }
         return result;
